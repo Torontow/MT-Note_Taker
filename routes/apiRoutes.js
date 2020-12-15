@@ -4,10 +4,10 @@ module.exports = app => {
 
     // GET request reads db.json file and sends it as a response
 
-    // app.get('/api/notes', (req, res) => {
-    //     let notesData = JSON.parse(fs.readFileSync('./db/db.json','utf8'));
-    //     res.json(notesData)
-    // });
+    app.get('/api/notes', (req, res) => {
+        let notesData = JSON.parse(fs.readFileSync('./db/db.json','utf8'));
+        res.json(notesData)
+    });
 
     // POST request receives a new note adds it to the db.json file and returns it to the client.
 
