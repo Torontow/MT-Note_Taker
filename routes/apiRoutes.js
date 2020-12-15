@@ -23,9 +23,9 @@ module.exports = app => {
         res.json(notesData);
     })        
     
-    // DELETE request deletes a note and returns the updated db.JSON file with newly assigned ids.
+    // DELETE request deletes a note and returns the updated db.json file with newly assigned ids.
     app.delete('/api/notes/:id', function(req, res) {
-        let notesData = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+        let notesData = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
         let noteID = req.params.id;
         let newID = 0;
         console.log(`Deleting note with ID ${noteID}`);
