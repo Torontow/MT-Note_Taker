@@ -21,7 +21,7 @@ app.use(express.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 
 // require('./public/assets/js/apiRoutes')(app);
-require('./public/routes/htmlRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 // LISTENER
 // The below code effectively "starts" our server
