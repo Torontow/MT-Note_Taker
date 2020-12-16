@@ -33,7 +33,7 @@ Click on the pencil icon on the top right corner to write a new note. Beneath th
 
 Once both fields have new text, a save button will appear in the top right corner. Click on it when you are happy with your note, and it will be added to the list on the left.
 
-![Save Screenshot](public/assets/save-screenshot.pngç)
+![Save Screenshot](public/assets/save-screenshot.png)
 
 And that's all you need to make and save some notes!
 
