@@ -21,11 +21,21 @@ Simply navigate to the provided URL.
 
 ## Usage
 
-When you nagivate to the site, you'll be presented with a landing page where you are prompted to "Get Started". Click the button, and you navigate to the notes page.
+When you nagivate to the site, you'll be presented with a landing page where you are prompted to "Get Started". Click that button and you navigate to the Notes page.
 
-On the notes page, any existing notes will appear on the left. If you would like to delete a note, click the icon beside the note title.
+![Index Page](public/assets/index-screenshot.png)
 
-If you would like to delete a note, click the icon beside the title of the note in the left-hand column. 
+On the Notes page, any existing notes you may have saved will appear in a column on the left. If you would like to read a note, click on the title. If you would like to delete a note, click the trash icon beside the note title.
+
+![Notes Page](public/assets/notes-screenshot.png)
+
+Click on the pencil icon on the top right corner to write a new note. Beneath that, on the right side of the page, you will see two fields with placeholder text. Replace the text with your own by clicking on the placeholder text.
+
+Once both fields have new text, a save button will appear in the top right corner. Click on it when you are happy with your note, and it will be added to the list on the left.
+
+![Save Screenshot](public/assets/save-screenshot.pngç)
+
+And that's all you need to make and save some notes!
 
 ## Contributing
 
